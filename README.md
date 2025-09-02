@@ -109,6 +109,7 @@ This dashboard answers the following business questions:
 
 
 8. **Yearly Sales Trend** – Growth patterns across years  
+<img width="537" height="41" alt="image" src="https://github.com/user-attachments/assets/ddadf0f8-0d20-4f9d-92c9-be991d453155" />
 
 ---
 
