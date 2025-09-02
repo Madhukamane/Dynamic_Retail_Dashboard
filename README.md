@@ -54,35 +54,54 @@ The dataset is hosted on GitHub and loaded into Excel via Power Query.
 ---
 
 ## 📖 Data Dictionary
-| Column          | Type     | Description                                    |
-|-----------------|----------|------------------------------------------------|
-| Customer Name   | Text     | Full name of the customer                      |
-| Segment         | Text     | Customer segment (Consumer, Corporate, etc.)   |
-| Country         | Text     | Country of the customer                        |
-| Market          | Text     | Geographic market (US, APAC, EU, LATAM, etc.)  |
-| Region          | Text     | Sub-region within the market                   |
-| Product ID      | Text     | Unique identifier for the product              |
-| Category        | Text     | Product category (Technology, Furniture, etc.) |
-| Sub-Category    | Text     | Product sub-category                           |
-| Sales           | Decimal  | Sales revenue generated                        |
-| Quantity        | Integer  | Quantity of items ordered                      |
-| Discount        | Decimal  | Discount applied                               |
-| Profit          | Decimal  | Profit earned on the order                     |
-| Shipping Cost   | Decimal  | Shipping charges                               |
-| Order Priority  | Text     | Order urgency (Critical, Medium, etc.)         |
+| Column Name   | Data Type     | Description | Primary Key |
+|---------------|---------------|-------------|-------------|
+| Customer Name | Text          | Full name of the customer | No |
+| Segment       | Text          | Customer segment (e.g., Consumer, Corporate, Home Office) | No |
+| City          | Text          | City of the customer | No |
+| State         | Text          | State/Province of the customer | No |
+| Country       | Text          | Country of the customer | No |
+| Postal Code   | Whole Number  | Postal code (missing/null replaced with -1) | No |
+| Market        | Text          | Geographic market (e.g., US, APAC, EU) | No |
+| Region        | Text          | Sub-region within the market | No |
+| Product ID    | Text          | Unique identifier for the product | Yes |
+| Category      | Text          | Product category (e.g., Technology, Furniture) | No |
+| Sub-Category  | Text          | Sub-category of the product | No |
+| Product Name  | Text          | Full name/description of the product | No |
+| Sales         | Decimal       | Sales revenue generated from the order | Yes |
+| Quantity      | Whole Number  | Quantity of items ordered | Yes |
+| Discount      | Decimal       | Discount applied to the order | Yes |
+| Profit        | Decimal       | Profit earned on the order | Yes |
+| Shipping Cost | Decimal       | Cost of shipping the order | Yes |
+| Order Priority| Text          | Priority of the order (e.g., Critical, Medium) | No |
 
 --- 
 
 ## ❓ Problem Statements Solved
 This dashboard answers the following business questions:  
 
-1. **KPIs** – Total Sales, Profit, Quantity, Number of Orders, Profit Margin  
+1. **KPIs** – Total Sales, Profit, Quantity, Number of Orders, Profit Margin
+<img width="525" height="78" alt="image" src="https://github.com/user-attachments/assets/b5d8c7db-c34b-4e8a-9008-a411ddeb9066" />
+
+
 2. **Sales & Profit Analysis** – Relationship between sales and profitability  
+
+
 3. **Category-Wise Profit** – Which categories are most/least profitable  
+
+
 4. **Segment-Wise Sales Share (%)** – Revenue contribution by segment  
+
+
 5. **Sales by Country** – Identify top-performing regions and countries  
+
+
 6. **Top 5 Sub-Categories** – Best-performing sub-categories  
+
+
 7. **Bottom 5 Sub-Categories** – Least-performing sub-categories  
+
+
 8. **Yearly Sales Trend** – Growth patterns across years  
 
 ---
@@ -160,7 +179,8 @@ At-a-glance view of sales, profit, quantity, orders, and profit margin.
 ---
 
 ## 🖼️ Dashboard Preview
-👉 *(Add screenshots of your Excel dashboard here – e.g., KPI section, charts, slicers)*  
+<img width="1082" height="666" alt="image" src="https://github.com/user-attachments/assets/7169480f-3adf-48f4-bed8-59d1a0502b7d" />
+
 
 ---
 
