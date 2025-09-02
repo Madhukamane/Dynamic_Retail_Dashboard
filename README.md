@@ -85,21 +85,27 @@ This dashboard answers the following business questions:
 
 
 2. **Sales & Profit Analysis** – Relationship between sales and profitability  
+<img width="291" height="231" alt="image" src="https://github.com/user-attachments/assets/883416be-0f34-482e-81db-f8ffd78beba4" />
 
 
 3. **Category-Wise Profit** – Which categories are most/least profitable  
+<img width="270" height="217" alt="image" src="https://github.com/user-attachments/assets/aa6ef0c2-e354-4c54-9df3-742d5fefaa0b" />
 
 
 4. **Segment-Wise Sales Share (%)** – Revenue contribution by segment  
+<img width="271" height="215" alt="image" src="https://github.com/user-attachments/assets/165671be-9aad-40ec-a4ea-bcc2eb52d5a6" />
 
 
 5. **Sales by Country** – Identify top-performing regions and countries  
+<img width="292" height="217" alt="image" src="https://github.com/user-attachments/assets/6f619a08-e7a8-447c-9dcd-9034b3096858" />
 
 
 6. **Top 5 Sub-Categories** – Best-performing sub-categories  
+<img width="260" height="233" alt="image" src="https://github.com/user-attachments/assets/c02a0d68-c473-4ca4-a41d-29ad43828bd3" />
 
 
 7. **Bottom 5 Sub-Categories** – Least-performing sub-categories  
+<img width="267" height="223" alt="image" src="https://github.com/user-attachments/assets/b78e2029-3135-471e-a4fb-a628f89db4b2" />
 
 
 8. **Yearly Sales Trend** – Growth patterns across years  
