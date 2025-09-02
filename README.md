@@ -71,6 +71,20 @@ The dataset is hosted on GitHub and loaded into Excel via Power Query.
 | Shipping Cost   | Decimal  | Shipping charges                               |
 | Order Priority  | Text     | Order urgency (Critical, Medium, etc.)         |
 
+--- 
+
+## ❓ Problem Statements Solved
+This dashboard answers the following business questions:  
+
+1. **KPIs** – Total Sales, Profit, Quantity, Number of Orders, Profit Margin  
+2. **Sales & Profit Analysis** – Relationship between sales and profitability  
+3. **Category-Wise Profit** – Which categories are most/least profitable  
+4. **Segment-Wise Sales Share (%)** – Revenue contribution by segment  
+5. **Sales by Country** – Identify top-performing regions and countries  
+6. **Top 5 Sub-Categories** – Best-performing sub-categories  
+7. **Bottom 5 Sub-Categories** – Least-performing sub-categories  
+8. **Yearly Sales Trend** – Growth patterns across years  
+
 ---
 
 ## 📊 Dashboard KPIs
@@ -117,11 +131,6 @@ At-a-glance view of sales, profit, quantity, orders, and profit margin.
 
 ---
 
-## 🖼️ Dashboard Preview
-👉 *(Add screenshots of your Excel dashboard here – e.g., KPI section, charts, slicers)*  
-
----
-
 ## 🛠️ Tools & Skills Used
 - **Microsoft Excel**
   - Power Query (data loading & transformation)
@@ -150,11 +159,11 @@ At-a-glance view of sales, profit, quantity, orders, and profit margin.
 
 ---
 
-## 📢 Author
-👤 **Madhu Kamane**  
-💼 Aspiring Data Analyst | Excel | SQL | Power BI | Python  
-🔗 [LinkedIn](https://www.linkedin.com/in/madhukamane/)  
+## 🖼️ Dashboard Preview
+👉 *(Add screenshots of your Excel dashboard here – e.g., KPI section, charts, slicers)*  
 
 ---
+
+
 
 ⭐ If you found this project useful, don’t forget to **star the repo**!
